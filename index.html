@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="./img/favicon-32x32.png"/>
+
+    <!-- Style sheet-->
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Breathe</title>
+
+  </head>
+  <body>
+
+    <br>
+    <div class = "top">
+    <div class="card quote-card">
+        <div class="card-body">
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">You, yourself, as much as anybody in the entire universe, deserve your love and affection.</p>
+                <footer class="blockquote-footer">Buddha</footer>
+            </blockquote>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card border-0 shadow my-5">
+          <div class="card-body p-5">
+            <div class="top">
+                <div class="journal">
+                    <div class="journal__title text-center"> <h4>
+                        How Do You Feel on <span class="journal__title--date">%today%</span></h4>
+                    </div>
+
+                    <br>
+            
+                    <div class="journal_box clearfix">
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="How do you feel today?"></textarea>
+                        </div>
+                    </div>
+            
+                    <div class="feelings clearfix">
+                        <div class="feelings--text">What was your dominant feeling today?</div>
+
+                        <br>
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tell Me More
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#"><i class="fas fa-smile-beam"></i>&nbsp;&nbsp;Happy, Relaxed, Content, Great</a> 
+                                <a class="dropdown-item" href="#"><i class="fas fa-cloud-showers-heavy"></i>&nbsp;&nbsp;Sad, Lonely, Depressed, Insecure, Numb</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-fire"></i>&nbsp;&nbsp;Productive, Active, Energetic, Motivated</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-angry"></i>&nbsp;&nbsp;Angry, Anxious, Annoyed, Frustrated</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-thumbs-up"></i>&nbsp;&nbsp;Average, Normal, Uneventful, Good</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-bed"></i>&nbsp;&nbsp;Sick, Tired, Unmotivated, Bored, Lazy</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Add Journal Button -->
+                   
+                    <br>
+    <div class="add">
+        <div class="add__container">
+            <button type="button" class="btn btn-info add__btn">Submit <i class="far fa-check-circle"></i></button>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+        
+    <div class="bottom">
+
+ <!-- PREVIOUS JOURNAL ENTRIES -->
+    <div class="container">
+        <div class="row">
+          <div class="col-8 card">
+            <div class="card-header">
+                Previous Journal Entries
+              </div>
+                <div class="card-body p-5">
+                    <div class="entries">
+                        <h2 class="entries__title"> Content </h2>
+                        <div class="entries__list">
+                    </div>
+                </div>
+                </div>
+          </div>
+
+    <!-- CALENDAR -->
+
+          <div class="col-4 card">
+            <div class="card-header">
+                Calendar
+              </div>
+            <div class="card border-0 shadow my-5">
+                <div class="card-body p-5"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+              
+            <!--
+            <div class="item clearfix" id="expense-0">
+                <div class="item__description">Apartment rent</div>
+                <div class="right clearfix">
+                    <div class="item__value">- 900.00</div>
+                    <div class="item__percentage">21%</div>
+                    <div class="item__delete">
+                        <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item clearfix" id="expense-1">
+                <div class="item__description">Grocery shopping</div>
+                <div class="right clearfix">
+                    <div class="item__value">- 435.28</div>
+                    <div class="item__percentage">10%</div>
+                    <div class="item__delete">
+                        <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                    </div>
+                </div>
+            </div>
+            -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js" integrity="sha512-Izh34nqeeR7/nwthfeE0SI3c8uhFSnqxV0sI9TvTcXiFJkMd6fB644O64BRq2P/LA/+7eRvCw4GmLsXksyTHBg==" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>

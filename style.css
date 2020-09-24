@@ -1,0 +1,32 @@
+body {
+    background: #e5f0df;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .quote-card {
+    background: #f5e9f4;
+  }
+
+  /* DOMINANT FEELING DROPDOWN COLOURS */
+
+  .fa-smile-beam {
+      color: #f2eb0c;
+  }
+  .fa-cloud-showers-heavy {
+    color: #94948f;
+  }
+  .fa-fire {
+      color: #a6e0e3
+  }
+  .fa-angry {
+      color: red;
+  }
+  .fa-thumbs-up {
+      color: #a6afe3;
+  }
+  .fa-bed {
+      color: #0f07f5;
+  }
